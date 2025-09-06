@@ -351,6 +351,7 @@ To start a new translation:
 5. Execute the `mdbook` command to rebuild the docs. For Chinese, whose
    two-letter ISO-639 code is `zh`:
 
+
    ```
    mdbook build docs -d build
    MDBOOK_BOOK__LANGUAGE=zh mdbook build docs -d build/zh
