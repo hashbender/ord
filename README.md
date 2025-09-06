@@ -360,3 +360,4 @@ To start a new translation:
 
 6. If everything looks good, commit `XX.po` and open a pull request on GitHub.
    Other changed files should be omitted from the pull request.
+
