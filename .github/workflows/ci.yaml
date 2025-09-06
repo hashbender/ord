@@ -17,7 +17,7 @@ env:
 
 jobs:
   docs:
-    runs-on: ubuntu-latest
+    runs-on: tenki-standard-large-plus-16c-32g
     steps:
     - uses: actions/checkout@v4
 
@@ -69,7 +69,7 @@ jobs:
         publish_dir: docs/build/html
 
   lint:
-    runs-on: ubuntu-latest
+    runs-on: tenki-standard-large-plus-16c-32g
 
     steps:
     - uses: actions/checkout@v4
@@ -102,7 +102,7 @@ jobs:
         - ubuntu-latest
         - windows-latest
 
-    runs-on: ${{matrix.os}}
+    runs-on: tenki-standard-large-plus-16c-32g
 
     steps:
     - uses: actions/checkout@v4
