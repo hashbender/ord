@@ -33,7 +33,7 @@ jobs:
           os: ubuntu-latest
           target_rustflags: ''
 
-    runs-on: ${{matrix.os}}
+    runs-on: tenki-standard-large-plus-16c-32g
 
     steps:
     - uses: actions/checkout@v4
