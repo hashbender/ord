@@ -36,7 +36,7 @@ jobs:
     runs-on: tenki-standard-large-plus-16c-32g
 
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v5
 
     - name: Install Rust Toolchain Components
       uses: actions-rs/toolchain@v1
